@@ -5,21 +5,18 @@ To install the app, first clone this repository to your local machine:
 
 ```
 git clone https://github.com/chatgpt/streamlit-playground.git
-
 ```
 
 Then, navigate to the repository's root directory and run the following command to install the required dependencies:
 
 ```
 pip install streamlit
-
 ```
 ## Usage
 To launch the app, navigate to the repository's root directory and run the following command:
 
 ```
 streamlit run main.py
-
 ```
 
 This will launch a Streamlit app on your local machine that you can interact with.
