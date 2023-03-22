@@ -16,7 +16,7 @@ pip install streamlit
 To launch the app, navigate to the repository's root directory and run the following command:
 
 ```
-streamlit run main.py
+streamlit run streamlit_app.py
 ```
 
 This will launch a Streamlit app on your local machine that you can interact with.
