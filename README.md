@@ -1,63 +1,62 @@
 # Streamlit Playground
-This repository contains code for a Streamlit app that demonstrates the usage of various Streamlit features and functionalities.
-## Installation
-To install the app, first clone this repository to your local machine:
+這個儲存庫包含了一個用於展示各種 Streamlit 功能的 Streamlit 應用程式代碼。
 
+## 安裝
+要安裝這個應用程式，首先將這個儲存庫克隆到您的本地機器：
 ```
 git clone https://github.com/chatgpt/streamlit-playground.git
 ```
 
-Then, navigate to the repository's root directory and run the following command to install the required dependencies:
-
+然後，導航到儲存庫的根目錄並運行以下命令以安裝所需的依賴項：
 ```
 pip install streamlit
 ```
-## Usage
-To launch the app, navigate to the repository's root directory and run the following command:
 
+## 使用
+要啟動應用程式，導航到儲存庫的根目錄並運行以下命令：
 ```
 streamlit run streamlit_app.py
 ```
+這將在您的本地機器上啟動一個 Streamlit 應用程式，您可以與之互動。
 
-This will launch a Streamlit app on your local machine that you can interact with.
-## Features
-The app demonstrates the usage of the following Streamlit features:
+## 功能
+該應用程式展示了以下 Streamlit 功能的使用：
 
-### main Page
-- Setting page configuration
-- Using various text elements, including titles, headers, subheaders, and paragraphs
-- Displaying markdown text
-- Displaying LaTeX equations
-- Displaying code snippets
-- Displaying metrics
-- Displaying tables and dataframes
-- Displaying images, audio files, and videos
-- Using interactive widgets, including checkboxes, radio buttons, select boxes, multiselect boxes, buttons, sliders, progress bars, text inputs, text areas, date inputs, and time inputs
-- Uploading and displaying files, including images and videos
-- Using forms to collect user input
-- Using the sidebar to switch between different plot types and displaying the plots using Plotly
+### 主頁面
+- 設置頁面配置
+- 使用各種文本元素，包括標題、頭條、副標題和段落
+- 顯示 Markdown 文本
+- 顯示 LaTeX 公式
+- 顯示代碼片段
+- 顯示指標
+- 顯示表格和數據框架
+- 顯示圖像、音頻文件和視頻
+- 使用交互式小部件，包括復選框、單選按鈕、選擇框、多選框、按鈕、滑桿、進度條、文本輸入、文本區域、日期輸入和時間輸入
+- 上傳和顯示文件，包括圖像和視頻
+- 使用表格來收集用戶輸入
+- 使用側邊欄在不同的圖表類型之間切換並使用 Plotly 顯示圖表
 
-### Image scraper
-- search for images on Unsplash by keyword using web scraping. 
-- BeautifulSoup and Requests libraries 
-- display image in a responsive layout using Streamlit columns.
-- download button for each image that opens the image in a new tab for the user to download.
+### 圖像搜尋器
+- 使用網絡爬蟲在 Unsplash 上按關鍵字搜索圖像。
+- BeautifulSoup 和 Requests 庫
+- 使用 Streamlit 列來顯示圖像的響應式佈局。
+- 每張圖像都有一個下載按鈕，用戶可以在新標籤中打開圖像進行下載。
 
-### Image editor
-- upload an image, resize it, rotate it, and apply various filters to it. 
-- urllib and PIL libraries to download and manipulate the image
-- user interface
-- displays the uploaded image along with its size, mode, and format, and provides sliders and dropdowns for resizing, rotating, and filtering the image.
+### 圖像編輯器
+- 上傳圖像，對其進行縮放、旋轉和應用各種濾鏡。
+- 使用 urllib 和 PIL 庫下載和操作圖像
+- 用戶界面
+- 顯示上傳的圖像及其大小、模式和格式，並提供用於縮放、旋轉和過濾圖像的滑塊和下拉菜單。
 
-The app is intended to demonstrate the usage of various Streamlit widgets and image manipulation functions.
+該應用程式旨在展示各種 Streamlit 小部件和圖像處理功能的使用。
 
-### Audio to text
-- audio-to-text converter that allows users to upload an audio file in WAV or MP3 format and converts it to text.
-- PyDub and SpeechRecognition libraries to split the audio file into chunks based on silence, and then convert each chunk to text using the Google speech-to-text API. 
-- displays the uploaded audio file and the recognized text
-- a download button for the user to download the converted text as a text file.  
+### 音頻轉文字
+- 音頻轉文字轉換器，允許用戶上傳 WAV 或 MP3 格式的音頻文件並將其轉換為文字。
+- 使用 PyDub 和 SpeechRecognition 庫將音頻文件基於靜音切割成塊，然後使用 Google 語音轉文字 API 將每個塊轉換為文字。
+- 顯示上傳的音頻文件和識別出的文字
+- 為用戶提供一個下載按鈕，以便下載轉換後的文字為文本文件。
 
-The app is intended to demonstrate the usage of various Streamlit widgets and audio-to-text conversion functions.
+該應用程式旨在展示各種 Streamlit 小部件和音頻轉文字轉換功能的使用。
 
-## Credits
-This app was created by Streamlit documentation and tutorials. The app is intended to serve as a reference for Streamlit beginners and to demonstrate the various features and functionalities of Streamlit. If you have any questions or feedback, please feel free to reach out.
+## 致謝
+這個應用程式是由 Streamlit 文件和教程創建的。該應用程式旨在為 Streamlit 初學者提供參考，並展示 Streamlit 的各種功能和功能。如果您有任何問題或反饋，請隨時聯繫。
